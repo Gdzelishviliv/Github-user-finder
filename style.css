@@ -1,83 +1,159 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Space Mono", monospace;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+  box-sizing: border-box;
 }
-body{
-    background-color: #F6F8FF;
+body {
+  background-color: #f6f8ff;
 }
-.main-container{
-    padding-inline: 24px;
-    margin-top: 31px;
+.main-container {
+  padding-inline: 24px;
+  margin-top: 31px;
 }
-.head{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.head h2{
-    color: #222731;
-    font-size: 26px;
+.head h2 {
+  color: #222731;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+}
+.dark-light-button {
+  background: url(./photos/moon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  border: 0;
+  cursor: pointer;
+}
+.head-btn-part {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.head-btn-part span {
+  color: #4b6a9b;
+  font-size: 13px;
+  letter-spacing: 2.5;
+  font-weight: 700;
+  line-height: normal;
+}
+#searchInput {
+  background: url(./photos/seacrh-icn.svg);
+  background-position: 20px;
+  background-repeat: no-repeat;
+  width: 327px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  border: 0px;
+  padding-left: 45px;
+}
+.search-form {
+  width: 327px;
+  position: relative;
+  margin: auto;
+  margin-top: 36px;
+}
+#search-btn {
+  position: absolute;
+  right: 7px;
+  top: 6.5px;
+  width: 84px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #0079ff;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+#searchInput::placeholder {
+  color: #4b6a9b;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.profile-pic-and-date {
+  display: flex;
+  gap: 20px;
+}
+.searched-info-card {
+  padding-top: 32px;
+  padding-inline: 24px;
+  margin: auto;
+  margin-top: 16px;
+  width: 327px;
+  height: 517px;
+  border-radius: 15px;
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
+#profilePic {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+}
+#name{
+    color: #2B3442;
+    font-size: 16px;
     font-weight: 700;
     line-height: normal;
 }
-.dark-light-button{
-    background: url(./photos/moon.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 20px;
-    width: 20px;
-    border: 0;
-    cursor: pointer;
-}
-.head-btn-part{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-.head-btn-part span{
-    color: #4B6A9B;
+.name-link{
+    color: #0079FF;
     font-size: 13px;
-    letter-spacing: 2.5;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
 }
-#searchInput{
-    background: url(./photos/seacrh-icn.svg);
-    background-position: 20px;
-    background-repeat: no-repeat;
-    width: 282px;
-    height: 60px;
-    border-radius: 15px;
-    background-color: #fefefe;
-    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
-    border: 0px;
-    padding-left: 45px;
-}
-.search-form{
-    width: 327px;
-    position: relative;
-    margin: auto;
-}
-#search-btn{
-    position: absolute;
-    right: 7px;
-    top: 6.5px;
-    width: 84px;
-    height: 46px;
-    border-radius: 10px;
-    background-color: #0079FF;
-    border: 0;
-    color: #fff;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
+.date{
+    color:#697C9A;
+    font-size: 13px;
+    font-weight: 400;
     line-height: normal;
-    cursor: pointer;
 }
-#searchInput::placeholder{
+.about-information{
     color: #4B6A9B;
     font-size: 13px;
     font-weight: 400;
     line-height: 25px;
+    margin-top: 34px;
+}
+.media-minicard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 279px;
+    height: 85px;
+    border-radius: 10px;
+    background-color: #F6F8FF;
+    margin-top: 23px;
+}
+.media-minicard>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.media-minicard>div span{
+    color: #4B6A9B;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: normal;
+}
+.media-minicard>div h4{
+    color: #2B3442;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: normal;
 }

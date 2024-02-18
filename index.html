@@ -15,17 +15,49 @@
   </head>
   <body>
     <div class="main-container">
-        <header class="head">
-            <h2>devfinder</h2>
-            <div class="head-btn-part">
-                <span>Dark</span>
-                <button class="dark-light-button"></button>
+      <header class="head">
+        <h2>devfinder</h2>
+        <div class="head-btn-part">
+          <span>Dark</span>
+          <button class="dark-light-button"></button>
+        </div>
+      </header>
+      <section class="search-form">
+        <input
+          type="text"
+          placeholder="Search GitHub username…"
+          id="searchInput"
+        />
+        <button id="search-btn">Search</button>
+      </section>
+      <section class="searched-info-card">
+        <div class="profile-pic-and-date">
+          <img src="./photos/pussycat.png" alt="profile-pic" id="profilePic" />
+          <div class="name-link-date">
+            <h3 id="name">The Octocat</h3>
+            <a href="#" class="name-link">@octocat</a>
+            <p class="date">Joined 25 Jan 2011</p>
+          </div>
+        </div>
+        <p class="about-information">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+          odio. Quisque volutpat mattis eros.
+        </p>
+        <div class="media-minicard">
+            <div>
+                <span>Repos</span>
+                <h4 id="repos">8</h4>
             </div>
-        </header>
-        <section class="search-form">
-            <input type="text" placeholder="Search GitHub username…" id="searchInput"/>
-            <button id="search-btn">Search</button>
-        </section>
+            <div>
+                <span>Followers</span>
+                <h4 id="folowers">3938</h4>
+            </div>
+            <div>
+                <span>Following</span>
+                <h4 id="folowing">9</h4>
+            </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
