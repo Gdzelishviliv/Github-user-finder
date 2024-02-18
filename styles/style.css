@@ -24,7 +24,7 @@ body {
   line-height: normal;
 }
 .dark-light-button {
-  background: url(./photos/moon.svg);
+  background: url(../photos/moon.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 20px;
@@ -45,7 +45,7 @@ body {
   line-height: normal;
 }
 #searchInput {
-  background: url(./photos/seacrh-icn.svg);
+  background: url(../photos/seacrh-icn.svg);
   background-position: 20px;
   background-repeat: no-repeat;
   width: 327px;
@@ -206,5 +206,5 @@ body {
     background-color: #141D2F;
 }
 .dark-theme .dark-light-button{
-    background: url(./photos/sun.svg);
+    background: url(../photos/sun.svg);
 }

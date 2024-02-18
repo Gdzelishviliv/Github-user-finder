@@ -1,0 +1,98 @@
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding-inline: 98px;
+    margin-top: 140px;
+    margin-bottom: 236px;
+  }
+  #searchInput{
+    width: 573px;
+  }
+  .search-form{
+    width: 573px;
+  }
+  .searched-info-card{
+    width: 573px;
+    padding: 40px;
+    margin-top: 24px;
+  }
+  .media-minicard{
+    width: 493px;
+  }
+  #profilePic{
+    height: 117px;
+    width: 117px;
+  }
+  #name{
+    font-size: 26px;
+  }
+  .name-link{
+    font-size: 16px;
+  }
+  .date,
+  .about-information,
+  .about-me a{
+    font-size: 15px;
+  }
+  .media-minicard > div span{
+    font-size: 13px;
+  }
+  .media-minicard > div h4{
+    font-size: 22px;
+  }
+  .about-me{
+    grid-template-columns: auto auto;
+    padding-bottom: 0px;
+    margin-top: 32px;
+  }
+  .profile-pic-and-date{
+    gap: 41px;
+  }
+  .about-information{
+    margin-top: 24px;
+  }
+  .media-minicard{
+    margin-top: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-container {
+    padding-inline: 355px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+  #searchInput{
+    width: 730px;
+  }
+  .search-form{
+    width: 730px;
+  }
+  .searched-info-card{
+    width: 730px;
+    padding: 48px;
+    margin-top: 24px;
+  }
+  .media-minicard{
+    width: 480px;
+    margin-left: 154px;
+  }
+  .head{
+    width: 730px;
+    margin: auto;
+  }
+  .about-information{
+    margin-left: 158px;
+  }
+  .about-me{
+    margin-left: 154px;
+  }
+  .name-link-date{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .date{
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
