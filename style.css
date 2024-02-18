@@ -178,3 +178,31 @@ body {
   line-height: normal;
   text-decoration: none;
 }
+.dark-theme{
+    background-color: #141D2F;
+}
+.dark-theme .head h2,
+.dark-theme #dark-to-light-txt,
+.dark-theme #name,
+.dark-theme .date,
+.dark-theme .about-information,
+.dark-theme .media-minicard>div span,
+.dark-theme #repos,
+.dark-theme #folowers,
+.dark-theme #folowing,
+.dark-theme .about-me a,
+.dark-theme #searchInput::placeholder
+{
+    color: #FFFFFF;
+}
+.dark-theme #searchInput,
+.dark-theme .searched-info-card{
+    background-color: #1E2A47;
+    box-shadow: none;
+}
+.dark-theme .media-minicard{
+    background-color: #141D2F;
+}
+.dark-theme .dark-light-button{
+    background: url(./photos/sun.svg);
+}
